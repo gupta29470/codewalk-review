@@ -1,4 +1,12 @@
-# codewalk
+<p align="center">
+  <h1 align="center">CODEWALK</h1>
+   <p align="center" style="font-size:1.5em; font-weight:700;">
+     <a href="https://www.codewalk.xyz/">Landing page & docs →</a>
+   </p>
+  <p align="center">
+    <strong>AI-powered codebase intelligence tool</strong><br>
+  </p>
+</p>
 
 Local MCP server that builds a **dependency graph** of a git repo and uses it for two things:
 
