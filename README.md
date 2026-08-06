@@ -15,6 +15,20 @@ Local MCP server that builds a **dependency graph** of a git repo and uses it fo
 
 Your AI agent (Cursor, Claude, Copilot, …) talks to codewalk over MCP. codewalk never calls an LLM and never edits files; the host agent does the reasoning and applies fixes.
 
+<p align="center">
+  <a href="#how-it-works">How it works</a> •
+  <a href="#-demo">Demo</a> •
+  <a href="#-code-review--powered-by-the-intelligence-layer">Code Review</a> •
+  <a href="#install">Install</a> •
+  <a href="#mcp-setup">MCP Setup</a> •
+  <a href="#typical-usage">Usage</a> •
+  <a href="#tools-25">Tools</a> •
+  <a href="#configuration">Configuration</a> •
+  <a href="#development">Development</a>
+</p>
+
+---
+
 ## How it works
 
 ```
