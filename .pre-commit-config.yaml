@@ -1,0 +1,23 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.22
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v2.3.0
+    hooks:
+      - id: mypy
+        additional_dependencies:
+          - "types-PyYAML==6.0.12.20260518"
+          - "pydantic==2.13.4"
+          - "pydantic-settings==2.14.2"
+          - "tree-sitter==0.26.0"
+          - "duckdb==1.5.4"
+          - "igraph==1.0.0"
+          - "unidiff==0.7.5"
+          - "mcp==1.28.1"
+        args: ["--config-file=pyproject.toml"]
+        files: ^src/

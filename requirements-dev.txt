@@ -1,0 +1,9 @@
+# Dev tooling — lint, type-check, test, pre-commit hooks.
+# Install with: pip install -r requirements.txt -r requirements-dev.txt
+
+pytest==9.1.1
+pytest-cov==7.1.0
+ruff==0.15.22
+mypy==2.3.0
+pre-commit==4.6.1
+types-PyYAML==6.0.12.20260518

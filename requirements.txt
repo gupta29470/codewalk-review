@@ -1,0 +1,37 @@
+# Runtime dependencies — MCP-only graph + review toolkit.
+# No ChromaDB, no embeddings, no LangChain/LLM SDKs, no FastAPI.
+# Every entry pinned to an exact version for reproducible builds.
+
+# MCP transport
+mcp==1.28.1
+
+# Graph storage & runtime
+duckdb==1.5.4
+igraph==1.0.0
+
+# Code parsing (tree-sitter)
+tree-sitter==0.26.0
+tree-sitter-python==0.25.0
+tree-sitter-javascript==0.25.0
+tree-sitter-typescript==0.23.2
+tree-sitter-java==0.23.5
+tree-sitter-go==0.25.0
+tree-sitter-rust==0.24.2
+tree-sitter-ruby==0.23.1
+tree-sitter-c==0.24.2
+tree-sitter-cpp==0.23.4
+tree-sitter-c-sharp==0.23.5
+tree-sitter-php==0.24.1
+tree-sitter-yaml==0.7.2
+tree-sitter-kotlin==1.1.0
+tree-sitter-swift==0.7.3
+
+# Config & data models
+pydantic==2.13.4
+pydantic-settings==2.14.2
+python-dotenv==1.2.2
+PyYAML==6.0.3
+
+# Review: diff parsing, version comparisons
+unidiff==0.7.5
+packaging==26.2

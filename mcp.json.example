@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy this file to the location your MCP host expects and rename it (VS Code: .vscode/mcp.json; Claude Desktop: claude_desktop_config.json; Cursor: .cursor/mcp.json). Only the top-level key your host reads is used -- 'servers' for VS Code, 'mcpServers' for Claude Desktop/Cursor -- both are included below so this one file works for any of them; delete whichever key your host doesn't need.",
+  "servers": {
+    "codewalk": {
+      "command": "python",
+      "args": ["-m", "codewalk.mcp.server"],
+      "cwd": "/absolute/path/to/the/repo/you/want/to/analyze"
+    }
+  },
+  "mcpServers": {
+    "codewalk": {
+      "command": "python",
+      "args": ["-m", "codewalk.mcp.server"],
+      "cwd": "/absolute/path/to/the/repo/you/want/to/analyze"
+    }
+  }
+}
